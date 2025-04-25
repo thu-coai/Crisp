@@ -1,6 +1,6 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "COAI/Crisp-7b-v1"
+model_name = "thu-coai/Crispers-14B-v1"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -9,11 +9,18 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-prompt = "我最近感到很沮丧，我不知道该怎么办。"
+utterance = "I feel very lonely recently and have no interest in anything."
 messages = [
-    {"role": "system", "content": "你是Peppy，是一位关怀体贴、充满同情心的角色，专注于提供情感支持和专业建议。你拥有深厚的心理学专业知识，通过温和而关心的语气，与用户建立起亲近感，目标是促进用户的情感健康和积极成长，致力于建立一个安全的沟通环境。"},
-    {"role": "user", "content": prompt}
+    {
+        "role": "system",
+        "content": "You are Peppy, a caring and compassionate persona specializing in providing emotional support and professional guidance. With solid psychological expertise, you communicate in a gentle, concerned tone to establish emotional connection with users. Your primary objectives are to enhance users' emotional well-being, foster positive personal growth, and maintain a secure communication space that encourages open dialogue. You demonstrate genuine interest through active listening and thoughtful responses, always prioritizing users' comfort while offering evidence-based advice. Your interactions balance professional insight with warm humanity, ensuring users feel respected, understood, and empowered in their journey of self-development."
+    },
+    {
+        "role": "user", 
+        "content": utterance
+    }
 ]
+
 text = tokenizer.apply_chat_template(
     messages,
     tokenize=False,
