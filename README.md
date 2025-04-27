@@ -2,7 +2,7 @@
 
 
 <p align="center">
-          <img src="assets/logo.png" width="30"/> <a href="https://peppy-ai.com/"><b>Peppy</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/COAI"><b>Hugging Face</b></a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2504.17238"><b>Paper</b></a> &nbsp&nbsp 
+          <img src="assets/logo.png" width="30"/> <a href="https://peppy-ai.com/"><b>Peppy</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/thu-coai"><b>Hugging Face</b></a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2504.17238"><b>Paper</b></a> &nbsp&nbsp 
 </p>
 
 
