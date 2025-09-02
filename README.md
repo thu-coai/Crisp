@@ -17,6 +17,8 @@ Cognitive Restructuring (CR) is a psychotherapeutic process aimed at identifying
 More details are provided in our [paper](https://arxiv.org/abs/2504.17238).
 
 ## News
+- 🔥 2025-08-21: Our Crisp has been accepted to the EMNLP 2025 main conference.
+
 - 🎉 2025-04-25: We opened the online chatting website <img src="assets/logo.png" width="20"/> [Peppy](https://peppy-ai.com/), which is supported by our Cirspers model.
 
 - 🔥 2025-04-25: We released [Crispers-7B-v1](https://huggingface.co/thu-coai/Crispers-7B-v1) and [Crispers-14B-v1](https://huggingface.co/thu-coai/Crispers-14B-v1) models, which are available on Huggingface.
